@@ -4,7 +4,7 @@
 //Go to Setting > Translation > gemini_api.js
 
 const API_KEY = 'YOUR_API_KEY_HERE';
-const MODEL_NAME = 'gemini-1.5-flash'; // You can change to another model if desired
+const MODEL_NAME = 'gemini-2.0-flash'; // You can change to another model if desired
 const TEMPERATURE = 1;
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
 
